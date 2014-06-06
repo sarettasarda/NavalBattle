@@ -37,7 +37,7 @@ How to run it:
 
 Client commands:
 ===========
-#### help
+####!help
 shows the commands list
 
     >!help
@@ -50,51 +50,51 @@ shows the commands list
     * !hit coordinates -> hits the coordinates 'coordinates'
     * !quit -> disconnects from the server
 
-####who 
+####!who 
 shows the list of the clients connetted with the server
 
     > !who
     Clients connected: client1 client2 client3 
 
-####connect client_name 
+####!connect client_name 
 starts a game with the client client_name: the client asks at the server (with TCP) if the client client_name exists. If client_name exists and is not busy in another game, the server sends at client_name a request to start a game. If client_name accept, the server will send the ip address and the UDP port of client_name to the client. 
 
-    >!connect client_name
-    client_name accepted your challenge.
-    Game started with client_name.
+    >!connect Jhon
+    Jhon accepted your challenge.
+    Game started with Jhon.
 
 
 When the game starts the first char of the shell will change from '>' to '#'.
 
-####disconnect 
+####!disconnect 
 closes the game with the other client: the client send is state at the server (with TCP) and at the other client (with UDP) that will close the connection.
 
     #!disconnect
     You are now disconnected: YOU LOSE BECAUSE YOU CLOSE THE GAME
 
-####quit
+####!quit
 disconnects from the server: the client closes the TCP socket with the server, the UDP socket and exits.
 
     >!quit 
     You are now disconnected.
 
-####show_my_map 
+####!show-my-map 
 shows the client map wit the position of the boats and the hitches from the enemy
 
 ![My image](https://raw.githubusercontent.com/sarettasarda/NavalBattle/master/img/show_my_map.jpg)
 
-####show_enemy_map 
+####!show-enemy-map 
 shows the enemy  map with the hitches from the client
 
 ![My image](https://raw.githubusercontent.com/sarettasarda/NavalBattle/master/img/show_enemy_map.jpg)
 
-####hit coordinates
+####!hit coordinates
 hits the coordinates 'coordinates'in the enemy map
 
     It's your turn:
     #!hit A5
-    client_name says: HITTED
-    It's client_name turn
+    Jhon says: HITTED
+    It's Jhon's turn
 
 Credits
 =============
