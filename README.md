@@ -81,8 +81,11 @@ disconnects from the server: the client closes the TCP socket with the server, t
 ####show_my_map 
 shows the client map wit the position of the boats and the hitches from the enemy
 
+![My image](https://raw.githubusercontent.com/sarettasarda/NavalBattle/master/img/show_my_map.jpg)
+
 ####show_enemy_map 
 shows the enemy  map with the hitches from the client
+
 
 ####hit coordinates
 hits the coordinates 'coordinates'in the enemy map
