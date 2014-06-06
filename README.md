@@ -37,7 +37,7 @@ How to run it:
 
 Client commands:
 ===========
-#### help:
+#### help
 shows the commands list
 
     >!help
