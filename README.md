@@ -28,7 +28,7 @@ How to run it:
 0. be sure that the server is running
 1. compile the client: `gcc naval_battle_client.c -o naval_battle_client`
 2. run the client: `./naval_battle_client <remote host> <port>`
-3. insert your name
+3. insert your name (4 char or more)
 4. insert the UDP port
 5. insert the coordinates and the orientation for each of the 4 boats.
 
