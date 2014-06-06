@@ -86,6 +86,7 @@ shows the client map wit the position of the boats and the hitches from the enem
 ####show_enemy_map 
 shows the enemy  map with the hitches from the client
 
+![My image](https://raw.githubusercontent.com/sarettasarda/NavalBattle/master/img/show_enemy_map.jpg)
 
 ####hit coordinates
 hits the coordinates 'coordinates'in the enemy map
